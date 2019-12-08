@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"><span class="glyphicon glyphicon-pencil"></span>
+                &nbsp;&nbsp;최신 강의 목록</h3>
+            </div>
+            <div class="panel-body">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#"><img class="media-object" src="https://cdn.evilmartians.com/front/posts/scroll-to-the-future-modern-javascript-css-scrolling-implementations/not_smooth-c523278.gif" alt="샘플"></a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="#">c언어 기초 프로그래밍 강의</a>&nbsp;<span class="badge">New</span></h4>
+                        C언어 강의는 기초 프로그래밍 강의입니다.
+                    </div>
+                </div>
+                <hr>
+                <div class="media">
+                    <div class="media-left">
+                        <a href="#"><img class="media-object" src="https://cdn.evilmartians.com/front/posts/scroll-to-the-future-modern-javascript-css-scrolling-implementations/not_smooth-c523278.gif" alt="샘플"></a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading"><a href="#">c언어 기초 프로그래밍 강의</a>&nbsp;<span class="badge">New</span></h4>
+                        C언어 강의는 기초 프로그래밍 강의입니다.
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q4tfF3UGaQg"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src={{thumbnails}} alt="My Image">
+                <br>
+                channel name : {{subCount}}
+                <br>
+                viewer count : {{vidCount}}
+                <br>
+                <a href={{channelLink}}>{{title}}의 채널으로 이동합니다.</a>
+            </div>
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4">.col-md-4</div>
+        </div>
+    </body>
+</html>
+
+<div><iframe width="560" height="315" src="{{video1}}" frameborder="0" allowfullscreen></iframe><iframe width="560" height="315" src="{{video2}}" frameborder="0" allowfullscreen></iframe></div>
